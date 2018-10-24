@@ -9,7 +9,10 @@
 		
 		<link rel="stylesheet" href="dist/css/main.css">
 </head>
+<?php include_once ('./configs/config-db-con.php');?>
+<?php include_once ('./configs/config-post.php');?>
 <body>
-
-<?php echo 'I am the header'?>
-<?php include_once './includes/nav.php'?>
+	<header>
+		<?php include_once ('./includes/nav.php');?>
+		<?php echo 'I am the header'?>
+	</header>
