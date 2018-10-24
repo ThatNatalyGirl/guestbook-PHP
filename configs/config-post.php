@@ -20,7 +20,7 @@ $message=$_POST['message'];
 $sql="INSERT INTO entries(firstName, lastName, phone, email, message) VALUES('$firstName','$lastName','$phone','$email','$message')";
 
 if(!mysqli_query($con,$sql)){ //If we are not connected to the DB ',' or our fields aren't recognized by our db
-    die('Error: ' . mysql_error($con)); //Stop it and print the error
+    die('Error: ' . mysqli_error($con)); //Stop it and print the error
 } else {
     mysqli_close($con);
 }

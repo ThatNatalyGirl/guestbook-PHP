@@ -7,8 +7,8 @@
                 <div class="entry">
                     <h3><?php echo $row['firstName']; ?></h3>
                     <h3><?php echo $row['lastName']; ?></h3>
-                    <h3><?php echo $row['phone']; ?></h3>
-                    <h3><?php echo $row['email']; ?></h3>
+                    <p><?php echo $row['phone']; ?></p>
+                    <p><?php echo $row['email']; ?></p>
                     <p><?php echo $row['message']; ?></p>
                 </div> 
             <?php } mysqli_close($con);?>
