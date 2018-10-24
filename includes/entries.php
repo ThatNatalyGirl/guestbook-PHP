@@ -1,13 +1,14 @@
 <section class="entries">
     <div class="entries-wrapper">
 
-            <?php $result = mysqli_query("SELECT firstName,message FROM entries");
+            <?php $result = mysqli_query("SELECT firstName,lastName,phone,email,message FROM entries");
                 while($row = mysqli_fetch_array($result)) {     
             ?>
                 <div class="entry">
                     <h3><?php echo $row['firstName']; ?></h3>
                     <h3><?php echo $row['lastName']; ?></h3>
                     <h3><?php echo $row['phone']; ?></h3>
+                    <h3><?php echo $row['email']; ?></h3>
                     <p><?php echo $row['message']; ?></p>
                 </div> 
             <?php } mysqli_close($con);?>
