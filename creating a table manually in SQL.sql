@@ -8,5 +8,12 @@ message text NOT NULL,
 Primary key(id)
 );
 
+
 -- phone int(10) NOT NULL default ''
 -- we're not using this because Validation is still easier with varchar than int
+
+-- Select *
+-- from entries e, participants participants p
+-- where p.entry_id = e.id;
+
+-- ^ this is selecting and joining
