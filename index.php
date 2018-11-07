@@ -1,6 +1,7 @@
 <?php include_once ('./header.php');?>
-<?php include_once ('./includes/form.php');?>
 
-<!-- <h1>Home</h1> -->
+<h2>Please Enter Your Information</h2>
+
+<?php include_once ('./includes/form.php');?>
 
 <?php include_once ('./footer.php');?>
