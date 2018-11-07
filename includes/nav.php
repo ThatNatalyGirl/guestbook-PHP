@@ -1,7 +1,7 @@
 <ul>
     <?php
         $urls = array(
-            'Home' => '/',
+            'Guest Entry' => '/',
             'Guestbook' => 'guestbook.php',
             'CoolStuff' => 'work.php'
         );

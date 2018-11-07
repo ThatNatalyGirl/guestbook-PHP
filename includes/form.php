@@ -1,4 +1,4 @@
-<form name="guest" action="addcomment.php" method="post">
+<form name="guest" action="thanks.php" method="post">
 	<div class="form-group">
 		<p>First Name: <input type="text" name="firstName" placeholder="First Name" /></p>
 	</div>	

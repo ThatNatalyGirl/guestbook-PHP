@@ -1,6 +1,6 @@
 <?php include_once ('./header.php');?>
 
-<h1>Guestbook</h1>
+<h2>Entries</h2>
 <?php
     $host = "localhost"; //add SQL Server host
     $user = "root"; //SQL username
